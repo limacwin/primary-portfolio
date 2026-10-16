@@ -429,6 +429,26 @@ h1 {
   border-bottom: none;
 }
 
+.experience-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.experience-duration {
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 1.5;
+  background: var(--surface);
+}
+
+.portfolio-container.dark .experience-duration,
+.portfolio-container.light .experience-duration {
+  color: var(--secondary-text);
+}
+
 .portfolio-container.dark .work-list li strong,
 .portfolio-container.dark .skills-list li strong {
   color: var(--primary-text);

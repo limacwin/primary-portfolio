@@ -105,9 +105,7 @@ function App() {
         </section>
 
         <section className="section">
-          <h2>
-            <a href="#work">Work</a>
-          </h2>
+          <h2 id="work">Work Experience</h2>
           <ul className="work-list">
             <li>
               <strong>OneShield - Software Engineer</strong> (September 2022 - Present)
@@ -124,8 +122,17 @@ function App() {
                 <li>Resolved <strong>50+ critical production bugs</strong> across legacy VB.NET and modern .NET Core microservices, maintaining system stability</li>
               </ul>
             </li>
+          </ul>
+        </section>
+
+        <section className="section">
+          <h2 id="internship">Internship</h2>
+          <ul className="work-list">
             <li>
-              <strong>Persistent Systems</strong> (2020 - 2021)
+              <div className="experience-heading">
+                <strong>Persistent Systems</strong>
+                <span className="experience-duration">2-month internship</span>
+              </div>
               <ul className="sub-list">
                 <li>Conducted security research on <strong>ML Privacy Meter from NUS Data Privacy Lab</strong>, executing Membership Inference attacks on MNIST and other ML models to evaluate data leakage vulnerabilities</li>
                 <li>Implemented <strong>Human Activity Recognition &amp; Classification</strong> system using <strong>Federated Learning with IBM FL Library</strong>, achieving higher accuracy compared to local training approaches</li>
